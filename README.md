@@ -81,9 +81,10 @@ networks:
 *First we initalize our "swarm" which is Docker's way to run an entire cluster*
 `docker swarm init`
 
-`Second, we deploy our services to the swarm`
+Second, we deploy our services to the swarm
 
 `docker stack deploy -c docker-compose.yml docker-nginx-swarm`
+checks status
 `docker stack ps docker-ngnix-swarm`
 `docker service ls`
 
@@ -93,6 +94,6 @@ networks:
 
 ### Scattered Notes
 
-docker stack rm docker-nginx-swarm
+`docker stack rm docker-nginx-swarm`
 
  
