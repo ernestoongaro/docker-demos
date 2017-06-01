@@ -84,8 +84,11 @@ networks:
 Second, we deploy our services to the swarm
 
 `docker stack deploy -c docker-compose.yml docker-nginx-swarm`
+
 checks status
+
 `docker stack ps docker-ngnix-swarm`
+
 `docker service ls`
 
 *[http://localhost:8888](http://localhost:8888)*
