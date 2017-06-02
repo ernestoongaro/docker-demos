@@ -73,6 +73,7 @@ networks:
 
 *Check this into Github, now anybody can set this up on a different machine (this is the control part!)*
 *Finally, we can run our service*
+
 `docker-compose up`
 
 ## Part 5: Scale
@@ -83,7 +84,7 @@ networks:
 
 Second, we deploy our services to the swarm
 
-`docker stack deploy -c docker-compose.yml docker-nginx-swarm`
+`docker stack deploy -c docker-compose-complex.yml docker-nginx-swarm`
 
 checks status
 
